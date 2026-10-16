@@ -35,7 +35,7 @@
 | Brier Score | 예측 확률과 실제 결과의 차이를 평가하는 지표 |
 | ECE | 예측 확률과 관측 빈도 사이의 보정 오차를 구간별로 집계한 지표 |
 
-CAD 선별을 목적으로 했기 때문에 **Sensitivity와 False Negative(FN)**를 우선적으로 살펴봤습니다.
+CAD 선별을 목적으로 했기 때문에 Sensitivity와 False Negative(FN)를 우선적으로 살펴봤습니다.
 
 다만 민감도를 높이기 위해 Threshold를 조정하면 Specificity가 낮아질 수 있으므로, 다른 성능 지표도 함께 비교했습니다.
 
