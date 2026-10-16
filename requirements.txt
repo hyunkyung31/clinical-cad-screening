@@ -1,0 +1,7 @@
+# 집계 CSV의 그래프 재생성 및 노트북 정적 검사 환경
+# 과거 학습 환경은 docs/environment.md 참조
+numpy==2.5.2
+pandas==3.0.6
+matplotlib==3.11.2
+nbformat==5.11.1
+ipython==9.17.1

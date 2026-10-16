@@ -1,0 +1,40 @@
+{
+  "generator": "scripts/plot_results.py",
+  "metrics_sha256": "7e7af543508881d76f2a5c01ed4c115bd0fbd516bd63958311d08a2e8f4d32f5",
+  "generator_sha256": "db89808b04688d8054b30936e4960ae10aa31c731b5dac136b1cc89cf6048c26",
+  "figures": [
+    {
+      "path": "figures/nested_model_comparison.png",
+      "caption": "Nested pooled 비교. LR/SVM은 PDF 근거만.",
+      "inputs": [
+        "results/metrics.csv"
+      ],
+      "kind": "aggregate_chart",
+      "contains_patient_images": false,
+      "model_execution": false,
+      "sha256": "bdb9a3edb6d0df77be8a73b00c64bd1af008b717a20f852bc02ed2a4ea06ee23"
+    },
+    {
+      "path": "figures/calibration_comparison.png",
+      "caption": "별도최종구성용OOF의Brier/ECE. 원래Nested성능과분리.",
+      "inputs": [
+        "results/metrics.csv"
+      ],
+      "kind": "aggregate_chart",
+      "contains_patient_images": false,
+      "model_execution": false,
+      "sha256": "b4a2d0fb51235c2f7f6788eaedc3af90bd73a497491853c8843914832101978a"
+    },
+    {
+      "path": "figures/portfolio_cover.png",
+      "caption": "대표후보: RF Nested결과와최종구성용Calibration을분리한패널.",
+      "inputs": [
+        "results/metrics.csv"
+      ],
+      "kind": "aggregate_chart",
+      "contains_patient_images": false,
+      "model_execution": false,
+      "sha256": "32ae546ad18c003445f6bb44bb42e1413ff1f53eab0e3c8a8f7f1fb414a1bccd"
+    }
+  ]
+}
